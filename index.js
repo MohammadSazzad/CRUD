@@ -52,7 +52,12 @@ app.put('/todos/:id', async (req, res) => {
     }
 });
 
-// Delete a todo
+
+
+
+
+
+// Delete a todo list
 app.delete('/todos/:id', async (req, res) => {
     try {
         const { id } = req.params;
